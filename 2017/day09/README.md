@@ -44,6 +44,8 @@ Your goal is to find the total score for all groups in your input. Each group is
 
 **What is the total score** for all groups in your input?
 
+Your puzzle answer was `7640`.
+
 ## Part Two
 
 Now, you're ready to remove the garbage.
