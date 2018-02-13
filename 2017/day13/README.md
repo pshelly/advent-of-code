@@ -13,11 +13,11 @@ For example, suppose you've recorded the following:
 
 This means that there is a layer immediately inside the firewall (with range `3`), a second layer immediately after that (with range `2`), a third layer which begins at depth `4` (with range `4`), and a fourth layer which begins at depth `6` (also with range `4`). Visually, it might look like this:
 
-   0   1   2   3   4   5   6
-  [ ] [ ] ... ... [ ] ... [ ]
-  [ ] [ ]         [ ]     [ ]
-  [ ]             [ ]     [ ]
-                  [ ]     [ ]
+     0   1   2   3   4   5   6
+    [ ] [ ] ... ... [ ] ... [ ]
+    [ ] [ ]         [ ]     [ ]
+    [ ]             [ ]     [ ]
+                    [ ]     [ ]
 
 Within each layer, a security scanner moves back and forth within its range. Each security scanner starts at the top and moves down until it reaches the bottom, then moves up until it reaches the top, and repeats. A security scanner takes **one picosecond** to move one step. Drawing scanners as S, the first few picoseconds look like this:
 
